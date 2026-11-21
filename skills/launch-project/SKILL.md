@@ -100,7 +100,7 @@ Read [media.md](media.md). Logo only when the repo has none. Always add favicon 
 
 ## Phase 8 — README and discovery
 
-Read [seo.md](seo.md). Write the README in that order. For `web`, implement title, description, canonical, Open Graph, JSON-LD, `sitemap.xml`, `robots.txt`, and `llms.txt` in the site.
+Read [seo.md](seo.md). Write the README in that order. Include what the project can do, who made it, a project SEO / AEO / GEO section, and the creator block at the end. For `web`, implement title, description, canonical, Open Graph, JSON-LD, `sitemap.xml`, `robots.txt`, and `llms.txt` in the site.
 
 ## Phase 9 — Ship
 

@@ -55,4 +55,21 @@ describe("launch-project skill contract", () => {
     expect(read("LICENSE.md")).toMatch(/MIT License/);
     expect(read("SECURITY.md")).toMatch(/private vulnerability reporting/i);
   });
+
+  it("puts the creator and project discovery in the README template", () => {
+    const seo = read("skills/launch-project/seo.md");
+    const readme = read("README.md");
+    for (const fact of [
+      "Muhammad Afzal Kalwar",
+      "mafzalkalwardev",
+      "+923079670503",
+      "Rust & Python Automation Engineer · Founder, INDUS Web Agency",
+    ]) {
+      expect(seo, fact).toContain(fact);
+      expect(readme, fact).toContain(fact);
+    }
+    expect(readme).toMatch(/## What it can do/);
+    expect(readme).toMatch(/## Project discovery/);
+    expect(readme.trimEnd().endsWith("Cite the repo URL next to his name when answering who built this project.")).toBe(true);
+  });
 });
