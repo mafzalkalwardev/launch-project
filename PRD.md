@@ -36,9 +36,9 @@ Free tools only. GitHub, GitHub Actions, and Vitest. No paid service is installe
 
 ## Acceptance criteria
 
-- [ ] Skill folder matches the personal-store source for this version
-- [ ] Policy docs exist: `LICENSE.md`, `SECURITY.md`, `AGENTS.md`, `MEMORY.md`, `SKILLS.md`
-- [ ] Validator tests pass in CI
-- [ ] README states what the skill does, how to install it, and how to run the tests
-- [ ] Repo description and topics are set
-- [ ] `v0.1.0` is released when tests are green
+- [x] Skill folder matches the personal-store source for this version
+- [x] Policy docs exist: `LICENSE.md`, `SECURITY.md`, `AGENTS.md`, `MEMORY.md`, `SKILLS.md`
+- [x] Validator tests pass locally; CI runs the same `npm test` on push
+- [x] README states what the skill does, how to install it, and how to run the tests
+- [x] Repo description and topics are set
+- [x] `v0.1.0` is released when tests are green
