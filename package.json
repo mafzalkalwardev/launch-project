@@ -1,0 +1,22 @@
+{
+  "name": "launch-project",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cursor skill that bootstraps a new project with docs, a free stack, a public repo, and one review.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./skill": "./skills/launch-project/SKILL.md"
+  },
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.8"
+  }
+}
