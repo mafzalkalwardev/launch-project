@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="launch-project mark">
+  <rect width="128" height="128" rx="16" fill="#1C1915"/>
+  <rect x="18" y="18" width="92" height="92" rx="8" fill="none" stroke="#C4622D" stroke-width="4"/>
+  <path d="M40 88 V40 H78" fill="none" stroke="#F4EFE6" stroke-width="8" stroke-linecap="square"/>
+  <rect x="78" y="34" width="14" height="14" fill="#C4622D"/>
+</svg>
